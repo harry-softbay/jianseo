@@ -1,0 +1,17 @@
+{
+  "name": "BeRo Global eSIM Safety",
+  "short_name": "BeRo",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f9ff",
+  "theme_color": "#155bff",
+  "description": "BeRo travel connectivity and safety mobile app prototype",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
