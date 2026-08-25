@@ -1,0 +1,23 @@
+/* Higher-chroma visual pass. Imported last so state colors stay decisive. */
+body{background:linear-gradient(135deg,#c6dcff,#fff3d7)}
+.app-shell{box-shadow:0 24px 70px #06255f30}
+.topbar{background:#fff;box-shadow:0 5px 18px #1027550c;position:relative;z-index:3}
+.severity-normal .normal-hero{background:linear-gradient(135deg,#075cff 0%,#087cff 48%,#00b8e9 100%)}
+.severity-normal .normal-hero:before{content:"";position:absolute;width:190px;height:190px;left:-110px;bottom:-125px;border-radius:50%;background:#5f34ff55;box-shadow:0 0 0 28px #ffffff15}
+.severity-normal .data-ring{background:conic-gradient(#ffe85c 0 74%,#ffffff38 74%);box-shadow:0 0 0 5px #ffffff19,0 20px 40px #002a9455}
+.severity-normal .data-ring:before{background:linear-gradient(145deg,#0967e9,#0055c7)}
+.severity-normal .plan-line{background:linear-gradient(100deg,#092b82,#1748bf);border:1px solid #6da8ff80;box-shadow:0 12px 28px #00276855}
+.severity-normal .plan-line button{background:#ffe65a;color:#06215e;box-shadow:0 5px 14px #001d6260}
+.severity-normal .connection-pill{background:#00dbbd2b;border-color:#9fffea;color:#fff;box-shadow:0 0 16px #00e7cb55}
+.severity-normal .normal-content{background:linear-gradient(180deg,#eef5ff,#fff9ee)}
+.severity-normal .esim-pass{border-color:#a8cbff;box-shadow:0 13px 30px #105fc21a}
+.severity-normal .flag{background:linear-gradient(145deg,#ff4e65,#ff8060);color:#fff;box-shadow:0 7px 16px #ff4e6540}
+.severity-normal .quick-grid button:nth-child(1) b{background:#5d3dff;color:#fff}.severity-normal .quick-grid button:nth-child(2) b{background:#ff8a00;color:#fff}.severity-normal .quick-grid button:nth-child(3) b{background:#00b99c;color:#fff}.severity-normal .quick-grid button:nth-child(4) b{background:#ec3f7c;color:#fff}
+.severity-normal .quick-grid button{border:2px solid #fff;background:#fff;box-shadow:0 12px 25px #084eaa24}
+.severity-normal .trip-map{background-color:#9de5ff;background-image:linear-gradient(28deg,transparent 47%,#fff 48% 52%,transparent 53%),linear-gradient(-38deg,transparent 47%,#ffcb4c 48% 52%,transparent 53%),radial-gradient(circle at 75% 25%,#5cc788 0 13%,transparent 14%)}
+.severity-normal .trip-map span{color:#ff315c;text-shadow:0 3px 0 #fff,0 0 12px #fff}
+.severity-normal .safety-ready{background:linear-gradient(100deg,#dff3ff,#dfffea);border:1px solid #8bd9e3}.severity-normal .safety-ready>span{background:linear-gradient(145deg,#075cff,#00b8e9);box-shadow:0 7px 16px #075cff45}
+.severity-danger{background:#fff2e8}.severity-danger .hero.danger{background:linear-gradient(135deg,#ff283f 0%,#e60023 48%,#ff6a00 100%)}
+.severity-danger .hero.danger:before{content:"";position:absolute;inset:auto -50px -85px auto;width:180px;height:180px;border-radius:50%;background:#ffb00055;box-shadow:0 0 0 25px #ffffff14}
+.severity-danger .safe-orb{box-shadow:0 0 0 7px #fff3,0 15px 34px #75000b80}.severity-danger .mode-transition{background:linear-gradient(90deg,#fff0e9,#ffd5bf);color:#b31120}.severity-danger .critical{background:#fff!important;border:2px solid #ff694c!important;box-shadow:0 12px 28px #e4302025}.severity-danger .number{background:#ffddd3;color:#d62321}.severity-danger .evacuate{box-shadow:0 9px 22px #76000c60}
+.severity-critical body,.severity-critical{background:#050505}.severity-critical .maximum-danger{background:radial-gradient(circle at 78% 18%,#3d0000,#080808 52%)}.severity-critical .maximum-danger:before{content:"";position:absolute;width:200px;height:200px;border-radius:50%;right:-110px;bottom:-110px;background:#ff001f33;box-shadow:0 0 0 35px #ff001f12}.severity-critical .mode-transition{border-bottom:2px solid #ff2035}.severity-critical .content{background:linear-gradient(180deg,#0d0d0d,#181818)}.severity-critical .critical{border:2px solid #ff3144!important;box-shadow:0 0 24px #ff1b3240}.severity-critical .chip{background:#ff1f3d;color:#fff}.severity-critical .number,.severity-critical .small-icon{background:#ff1f3d;color:#fff}.severity-critical .evacuate{background:#ff1734;color:#fff;box-shadow:0 0 0 5px #ff173427,0 10px 25px #ff17344d}.severity-critical .bottom-nav .active{background:#ff1734;color:#fff}

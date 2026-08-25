@@ -1,0 +1,64 @@
+.bottom-nav {
+  height: 92px !important;
+  padding: 8px 7px 12px !important;
+  gap: 5px;
+  background: rgba(255,255,255,.97) !important;
+  border: 1px solid #e5edf8 !important;
+  box-shadow: 0 -10px 30px rgba(21,58,111,.12) !important;
+}
+
+.bottom-nav button {
+  display: grid;
+  grid-template-rows: 52px 17px !important;
+  place-items: center;
+  min-width: 0;
+  padding: 2px 3px;
+  border-radius: 22px;
+  color: #71819a !important;
+}
+
+.bottom-nav button span {
+  display: grid !important;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 !important;
+  border-radius: 20px;
+  font-size: 31px !important;
+  line-height: 1;
+  color: inherit;
+}
+
+.bottom-nav button small {
+  font-size: 11px !important;
+  font-weight: 850 !important;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.bottom-nav button.active {
+  background: #fff !important;
+  color: #071c42 !important;
+  box-shadow: 0 8px 20px rgba(7,92,255,.12);
+}
+
+.bottom-nav button.active span {
+  background: #e8f1ff;
+  color: #075cff;
+  box-shadow: none;
+  transform: translateY(-3px) scale(1.03);
+}
+
+.bottom-nav button.active small {
+  color: #075cff !important;
+}
+
+.severity-danger .bottom-nav button.active span {
+  background: #ffe8ea;
+  color: #e41635;
+}
+
+.severity-critical .bottom-nav button.active span {
+  background: #ffe2e7;
+  color: #c90025;
+}
